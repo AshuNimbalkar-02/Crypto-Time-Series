@@ -1,0 +1,12 @@
+{
+  "name": "amdox-internship-projects",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo 'Please use: npm run dev:task OR npm run dev:crypto'",
+    "dev:task": "npm run dev --prefix amdox-task-optimizer",
+    "dev:crypto": "python -m streamlit run crypto-time-series/app.py",
+    "install:all": "npm run install:task && npm run install:crypto",
+    "install:task": "npm install --prefix amdox-task-optimizer",
+    "install:crypto": "pip install -r crypto-time-series/requirements.txt"
+  }
+}
