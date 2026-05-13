@@ -78,4 +78,3 @@ crypto-time-series/
 This project is part of the Amdox Internship portfolio and is licensed under the MIT License.
 
 ---
-*Developed by Ashu Nimbalkar*
